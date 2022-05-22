@@ -1,9 +1,9 @@
 <template>
     <div class="home-skeleton">
         <div v-for="i in 4" :key="i" class="item" :style="{backgroundColor:bg}">
-        <xtxSkeleton bg="#e3e3e3" width="306px" height="306px"></xtxSkeleton>
-        <xtxSkeleton bg="#e3e3e3" width="246px" height="24px"></xtxSkeleton>
-        <xtxSkeleton bg="#e3e3e3" width="120px" height="24px"></xtxSkeleton>
+        <xtxSkeleton animated bg="#e3e3e3" width="306px" height="306px"></xtxSkeleton>
+        <xtxSkeleton animated bg="#e3e3e3" width="246px" height="24px"></xtxSkeleton>
+        <xtxSkeleton animated bg="#e3e3e3" width="120px" height="24px"></xtxSkeleton>
         </div>
     </div>
 </template>
