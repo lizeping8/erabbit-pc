@@ -7,9 +7,10 @@
         <!-- 轮播图 -->
         <homeBanner></homeBanner>
     </div>
-    <div>
-      <homePanel title="新鲜好物" subTitle="新鲜出炉 品质靠谱"></homePanel>
-    </div>
+  <!-- 面板内容 新鲜好物 -->
+      <homeNew></homeNew>
+  <!-- 面板内容 人气推荐 -->
+      <homeHot></homeHot>
 </div>
 <!-- 新鲜好物 -->
 <!-- 人气推荐 -->
@@ -18,13 +19,15 @@
 <script>
 import homeCategory from './components/home-category.vue'
 import homeBanner from './components/home-banner.vue'
-import homePanel from './components/home-panel.vue'
+import homeNew from './components/home-new.vue'
+import homeHot from './components/home-hot.vue'
 export default {
   name: 'HomePage',
   components: {
     homeCategory,
     homeBanner,
-    homePanel
+    homeNew,
+    homeHot
   },
   setup () {
     return {}
@@ -32,6 +35,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 
 </style>
